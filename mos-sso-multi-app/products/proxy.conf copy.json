@@ -1,0 +1,11 @@
+{
+  "/simplesso/verifytoken/*": {
+    "target": "http://sso.mos_ankuranand.com:3010",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/simplesso/verifytoken": ""
+    }
+  }
+}
